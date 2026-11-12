@@ -133,10 +133,10 @@ export default function Home() {
   
 
   return (
-    <main className="min-h-screen bg-[radial-gradient(circle_at_top_left,_rgba(34,211,238,0.16),_transparent_35%),linear-gradient(135deg,_rgba(2,6,23,0.95),_rgba(8,15,35,0.98))] text-foreground">
+    <main className="min-h-screen bg-[radial-gradient(circle_at_top_left,_rgba(16,185,129,0.15),_transparent_35%),linear-gradient(135deg,_rgba(2,10,6,0.95),_rgba(0,0,0,1))] text-foreground">
       <div className="mx-auto flex max-w-7xl flex-col gap-6 px-4 py-6 lg:px-6">
         <TopBar />
-        <div className="flex items-center justify-between gap-4 rounded-3xl border border-slate-800/80 bg-slate-950/70 px-5 py-4 text-sm text-slate-300 shadow-lg shadow-cyan-500/10">
+        <div className="flex items-center justify-between gap-4 rounded-3xl border border-slate-800/80 bg-green-950/20 px-5 py-4 text-sm text-slate-300 shadow-lg shadow-cyan-500/10">
           <div>
             Signed in as <span className="font-semibold text-white">{userEmail}</span>
           </div>
